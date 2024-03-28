@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>Qeducato - University and College HTML Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -59,33 +59,38 @@
 <main>
     <!-- slider-area -->
 
-    <!-- search-area-end -->
-    <!-- admission-area -->
-    <section class="about-area about-p pt-120 pb-120 p-relative fix" style="background-image:url(img/bg/admission_bg.png); background-repeat: no-repeat; background-position: top;">
+    <section class="about-area about-p pt-120 pb-120 p-relative fix" style="background: #eff7ff;">
+        <div class="animations-02"><img src="{{ asset('images/123518964_1049164255554025_3671555435746405338_o.jpg') }}" alt="contact-bg-an-01"></div>
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                        <img src="{{ asset('images/123554738_1049170792220038_1374060645322425100_o-1.jpg') }}" alt="img">
+                        <img src="{{ asset('images/123529546_1049166755553775_416203239047421444_o.jpg') }}" alt="img">
+                        <div class="about-text second-about">
+                            <span>25 <sub>+</sub></span>
+                            <p>Years of Experience</p>
+                        </div>
                     </div>
+
                 </div>
 
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="about-content s-about-content pl-15 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
                         <div class="about-title second-title pb-25">
-                            <h2> Université<span> Technique </span> M'siri</h2>
+                            <h5><i class="fal fa-graduation-cap"></i> A Propos</h5>
+                            <h2>Pourquoi l'Université Technique M'siri ?</h2>
                         </div>
-                        <p class="txt-clr"> L’histoire de la chefferie Yeke a déjà été racontée par maints historiens habiles, voyageurs, visiteurs ou explorateurs de grand renom;</p>
-                        <p class="txt-clr"> les divers évènements ayant survenu dans notre chefferie ont été relatés (et continuent à l’être d’ailleurs) par de nombreux ouvrages : journaux, livres… dû  aux plumes les plus autorisées.</p>
-
-
+                        <p>Afin de comprendre les origines, la dénomination, les facultés organisées de/ et à l’Université Technique M’siri 1er et son impact sur le développement de la province de Lualaba en général et du district de Lubudi et celui de Kolwezi en particulier, il est indispensable de recourir à un bref rappel sur la situation géographique.</p>
+                        {{--                         --}}
+                        {{--                        <div class="slider-btn mt-20">--}}
+                        {{--                            <a href="about.html" class="btn ss-btn smoth-scroll">Read More <i class="fal fa-long-arrow-right"></i></a>--}}
+                        {{--                        </div>--}}
                     </div>
                 </div>
 
             </div>
         </div>
     </section>
-
 
 </main>
 <!-- main-area-end -->
@@ -116,4 +121,5 @@
 <script src="js/main.js"></script>
 </body>
 
+<!-- Mirrored from htmldemo.zcubethemes.com/qeducato/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Mar 2024 13:24:12 GMT -->
 </html>

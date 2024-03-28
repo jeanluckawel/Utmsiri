@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>Qeducato - University and College HTML Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -58,33 +58,50 @@
 <!-- main-area -->
 <main>
     <!-- slider-area -->
-
-    <!-- search-area-end -->
-    <!-- admission-area -->
-    <section class="about-area about-p pt-120 pb-120 p-relative fix" style="background-image:url(img/bg/admission_bg.png); background-repeat: no-repeat; background-position: top;">
+    <!-- steps-area-end -->
+    <!-- event-area -->
+    <section class="event pt-20 pb-90 p-relative fix">
+        <div class="animations-06"><img src="img/bg/an-img-06.png" alt="an-img-01"></div>
+        <div class="animations-07"><img src="img/bg/an-img-07.png" alt="contact-bg-an-01"></div>
+        <div class="animations-08"><img src="img/bg/an-img-08.png" alt="contact-bg-an-01"></div>
+        <div class="animations-09"><img src="img/bg/an-img-09.png" alt="contact-bg-an-01"></div>
         <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                        <img src="{{ asset('images/123554738_1049170792220038_1374060645322425100_o-1.jpg') }}" alt="img">
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="about-content s-about-content pl-15 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
-                        <div class="about-title second-title pb-25">
-                            <h2> Université<span> Technique </span> M'siri</h2>
-                        </div>
-                        <p class="txt-clr"> L’histoire de la chefferie Yeke a déjà été racontée par maints historiens habiles, voyageurs, visiteurs ou explorateurs de grand renom;</p>
-                        <p class="txt-clr"> les divers évènements ayant survenu dans notre chefferie ont été relatés (et continuent à l’être d’ailleurs) par de nombreux ouvrages : journaux, livres… dû  aux plumes les plus autorisées.</p>
-
+            <div class="row">
+                <div class="col-lg-12 p-relative">
+                    <div class="section-title center-align mb-50 text-center wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                        <h2>
+                            Actualités
+                        </h2>
 
                     </div>
                 </div>
 
             </div>
+            <div class="row">
+
+                @foreach($blogs as $blog)
+                    <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                    <div class="event-item mb-30 hover-zoomin">
+                        <div class="thumb">
+                            <a href="single-event.html"><img src="{{ asset('storage/' . $blog->image) }}" alt="contact-bg-an-01"></a>
+                        </div>
+                        <div class="event-content">
+{{--                            date --}}
+                            <div class="date"><strong>{{ $blog->created_at->format('d') }}</strong> {{ $blog->created_at->format('M') }}, {{ $blog->created_at->format('Y') }}</div>
+                            <h3><a href="#">{{ $blog->title }}</a></h3>
+                            <p>{{ $blog->content }}</p>
+                            <div class="time">{{ $blog->created_at->format('h - m - s') }}<i class="fal fa-long-arrow-right"></i> <strong>{{ $blog->author }}</strong></div>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
         </div>
     </section>
+
+    <!-- search-area-end -->
+    <!-- admission-area -->
+
 
 
 </main>
@@ -116,4 +133,5 @@
 <script src="js/main.js"></script>
 </body>
 
+<!-- Mirrored from htmldemo.zcubethemes.com/qeducato/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Mar 2024 13:24:12 GMT -->
 </html>

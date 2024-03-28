@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>Qeducato - University and College HTML Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -56,38 +56,81 @@
 <div class="offcanvas-overly"></div>
 <!-- offcanvas-end -->
 <!-- main-area -->
+
+<br>
 <main>
     <!-- slider-area -->
+    <!-- steps-area -->
+    <section class="steps-area p-relative p-5"  style="background-color: #032e3f;">
+        <div class="animations-10"><img src="img/bg/an-img-10.png" alt="an-img-01"></div>
+        <div class="container">
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="section-title mb-35 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                        <h2>Facultés organisées</h2>
+                    </div>
+                    <ul class="pr-20">
+                        <li>
+                            <div class="step-box wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                                <div class="dnumber">
+                                    <div class="date-box"><img src="img/icon/fea-icon01.png" alt="icon"></div>
+                                </div>
+                                <div class="text">
+                                    <h3>Préparatoire (Pré-U) </h3>
+                                    <p>Tout étudiant, qui a obtenu moins de 60 pourcent aux examens d’Etat, doit impérativement suivre les cours de mis à niveau et de cadrages pour éviter une désorientation lors de choix d’une faculté.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step-box wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                                <div class="dnumber">
+                                    <div class="date-box"><img src="img/icon/fea-icon02.png" alt="icon"></div>
+                                </div>
+                                <div class="text">
+                                    <h3>Faculté des Sciences Hospitalières</h3>
+                                    <p>L’abondance de pluies qui provoquent la multiplication de moustiques lesquels sont à la base des maladies telles que la malaria, le cholera, fièvre typhoïde etc.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step-box wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                                <div class="dnumber">
+                                    <div class="date-box"><img src="img/icon/fea-icon03.png" alt="icon"></div>
+                                </div>
+                                <div class="text">
+                                    <h3>Faculté de Géo-mine</h3>
+                                    <p>Il a fallu attendre l’arrivé au trône du 8em      successeur de M’siri, Mwami M’siri Mwenda Bantu Kaneranera Godefroid Munongo pour que les autres domaines soient finalement connus dans le grand Katanga</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="step-img wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+                        <img src="{{ asset('images/corses.jpg') }}" alt="class image">
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- steps-area-end -->
+    <!-- event-area -->
+
 
     <!-- search-area-end -->
     <!-- admission-area -->
-    <section class="about-area about-p pt-120 pb-120 p-relative fix" style="background-image:url(img/bg/admission_bg.png); background-repeat: no-repeat; background-position: top;">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                        <img src="{{ asset('images/123554738_1049170792220038_1374060645322425100_o-1.jpg') }}" alt="img">
-                    </div>
-                </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="about-content s-about-content pl-15 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
-                        <div class="about-title second-title pb-25">
-                            <h2> Université<span> Technique </span> M'siri</h2>
-                        </div>
-                        <p class="txt-clr"> L’histoire de la chefferie Yeke a déjà été racontée par maints historiens habiles, voyageurs, visiteurs ou explorateurs de grand renom;</p>
-                        <p class="txt-clr"> les divers évènements ayant survenu dans notre chefferie ont été relatés (et continuent à l’être d’ailleurs) par de nombreux ouvrages : journaux, livres… dû  aux plumes les plus autorisées.</p>
-
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
 
 
 </main>
+
+<br>
 <!-- main-area-end -->
 
 <!-- footer -->
@@ -116,4 +159,5 @@
 <script src="js/main.js"></script>
 </body>
 
+<!-- Mirrored from htmldemo.zcubethemes.com/qeducato/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Mar 2024 13:24:12 GMT -->
 </html>
